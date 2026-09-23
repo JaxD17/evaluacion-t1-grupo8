@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             insets
         }
         binding.btnPregunta1.setOnClickListener(this)
+        binding.btnPregunta2.setOnClickListener(this)
         binding.btnPregunta3.setOnClickListener(this)
         binding.btnPregunta4.setOnClickListener(this)
         binding.btnPregunta5.setOnClickListener(this)
@@ -35,6 +36,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when (v?.id) {
             R.id.btnPregunta1 -> {
                 val intent = Intent(this, Pregunta1Activity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnPregunta2 -> {
+                val intent = Intent(this, Pregunta2Activity::class.java)
                 startActivity(intent)
             }
             R.id.btnPregunta3 -> {
