@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Textos de la interfaz -->
+    <string name="p1_titulo">Salida tardía - Late Check-out</string>
+
+    <string name="p1_descripcion">
+        Ingrese las horas adicionales de permanencia:
+    </string>
+
+    <string name="p1_hint_horas">Horas adicionales</string>
+
+    <string name="p1_btn_calcular">Calcular</string>
+
+
+    <!-- Mensajes de validación -->
+    <string name="p1_error_horas">
+        Ingrese las horas adicionales
+    </string>
+
+
+    <!-- Resultado cuando no existe cobro -->
+    <string name="p1_margen_cortesia">
+        Salida dentro del margen de cortesía del hotel.
+    </string>
+
+
+    <!-- Resultado cuando existe cobro -->
+    <string name="p1_resultado_cobro">
+        Horas adicionales solicitadas: %1$d\nHoras sujetas a cobro: %2$d\nCargo total por Late Check-out: S/ %3$.2f
+    </string>
+
+</resources>

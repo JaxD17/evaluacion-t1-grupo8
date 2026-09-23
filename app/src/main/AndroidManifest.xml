@@ -25,7 +25,11 @@
         <activity
             android:name=".Pregunta4Activity"
             android:exported="false"
-            android:label="Pregunta 4"
+            android:label="Pregunta 4" />
+
+        <activity
+            android:name=".Pregunta1Activity"
+            android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
