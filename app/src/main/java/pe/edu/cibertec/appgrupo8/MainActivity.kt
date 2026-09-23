@@ -24,13 +24,22 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
+        binding.btnPregunta1.setOnClickListener(this)
+        binding.btnPregunta3.setOnClickListener(this)
         binding.btnPregunta4.setOnClickListener(this)
         binding.btnPregunta5.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
+            R.id.btnPregunta1 -> {
+                val intent = Intent(this, Pregunta1Activity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnPregunta3 -> {
+                val intent = Intent(this, Pregunta3Activity::class.java)
+                startActivity(intent)
+            }
             R.id.btnPregunta4 -> {
                 val intent = Intent(this, Pregunta4Activity::class.java)
                 startActivity(intent)
