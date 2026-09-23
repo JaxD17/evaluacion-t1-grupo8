@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AppGrupo8</string>
+
+    <!-- Menu Principal -->
+    <string name="main_title">Evaluación T1 - Grupo 8</string>
+    <string name="main_subtitle">Desarrollo de Aplicaciones Móviles I</string>
+    <string name="main_btn_pregunta4">Pregunta 4</string>
+
+    <!-- Pregunta 4: Alquiler de Canchas Sintéticas -->
+    <string name="p4_title">Alquiler de Canchas Sintéticas</string>
+    <string name="p4_description">Tolerancia de 10 min sin costo. Pasado este tiempo se aplica tarifa de S/ 30.00 + S/ 2.50 por min extra.</string>
+    <string name="p4_hint_minutos">Minutos adicionales ocupados</string>
+    <string name="p4_btn_calcular">Calcular</string>
+    <string name="p4_btn_limpiar">Limpiar</string>
+    <string name="p4_resultado_titulo">Resultado del cálculo</string>
+    <string name="p4_msg_tolerancia">Tiempo de tolerancia para desalojo y cambio de turno.</string>
+    <string name="p4_msg_exceso">Tiempo extra excedido - Detalle de cobro:</string>
+    <string name="p4_minutos_usados">Minutos adicionales usados: %1$d min</string>
+    <string name="p4_minutos_computables">Minutos computables para cobro: %1$d min</string>
+    <string name="p4_monto_facturar">Monto adicional a facturar: S/ %.2f</string>
+    <string name="p4_err_minutos_vacio">Ingrese los minutos adicionales</string>
+    <string name="p4_err_minutos_invalido">Ingrese un valor entero positivo</string>
+    <string name="p4_toast_minutos_invalido">Por favor ingrese un número de minutos válido</string>
 </resources>
