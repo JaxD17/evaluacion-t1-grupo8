@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnPregunta3.setOnClickListener(this)
         binding.btnPregunta4.setOnClickListener(this)
         binding.btnPregunta5.setOnClickListener(this)
+        binding.btnPregunta6.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -46,6 +47,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnPregunta5 -> {
                 val intent = Intent(this, Pregunta5Activity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnPregunta6 -> {
+                val intent = Intent(this, Pregunta6Activity::class.java)
                 startActivity(intent)
             }
         }
