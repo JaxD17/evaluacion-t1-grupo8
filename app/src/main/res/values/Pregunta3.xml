@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">PREGUNTA 3</string>
+    <string name="Descripcion">Cálculo de desperdicio de comida</string>
+    <string name="Calcular">VER DETALLES</string>
+    <string name="textComida">Ingrese gramos de comida</string>
+    <string name="resultado">Mostrar</string>
+    <string name="s_2f">S/ %.2f</string>
+</resources>
