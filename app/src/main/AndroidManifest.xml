@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Pregunta4Activity"
+            android:exported="false"
+            android:label="Pregunta 4"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
